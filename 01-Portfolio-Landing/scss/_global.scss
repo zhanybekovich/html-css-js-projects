@@ -1,3 +1,5 @@
+@use "vars";
+
 html {
   box-sizing: border-box;
 }
@@ -6,4 +8,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: vars.$main-font;
 }
